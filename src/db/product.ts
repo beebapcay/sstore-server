@@ -1,4 +1,4 @@
-import * as mongoose from 'mongoose';
+import mongoose from 'mongoose';
 
 export const ProductSchema = new mongoose.Schema({
   id: { type: String, require: true },
@@ -9,7 +9,7 @@ export const ProductSchema = new mongoose.Schema({
   sales: { type: Number },
   price: { type: Number, require: true },
   motivations: { type: [String] },
-  image: { type: String },
+  image: { type: String }
 });
 
 const Product = mongoose.model('Product', ProductSchema, 'products');
