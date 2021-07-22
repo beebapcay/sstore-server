@@ -1,7 +1,7 @@
 import http from 'http';
 import express from 'express';
 import mongoose from 'mongoose';
-import productRoute from './routes/productRoute';
+import { productRoute, categoryRoute, userRoute, motivationRoute, rootRoute } from './routes';
 import logging from './config/logging';
 import config from './config/config';
 
@@ -47,7 +47,12 @@ router.use((req, res, next) => {
 });
 
 /** Routes */
-router.use('/', productRoute);
+
+router.use('/api/v1', productRoute);
+router.use('/api/v1', categoryRoute);
+router.use('/api/v1', motivationRoute);
+router.use('/api/v1', userRoute);
+router.use('/api/v1/', rootRoute);
 
 /** Error handling */
 router.use((req, res, next) => {

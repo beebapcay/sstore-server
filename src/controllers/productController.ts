@@ -1,9 +1,8 @@
-import Product from '../db/product';
+import { Product } from '../db';
 import { Request, Response } from 'express';
 
 export const getAllProducts = (req: Request, res: Response) => {
-  Product.find((err: any, products: any) => {
-    console.log(products);
+  Product.find((err, products) => {
     if (err) res.send(err);
     else res.send(products);
   });
@@ -32,7 +31,7 @@ export const deleteProduct = (req: Request, res: Response) => {
 };
 
 export const updateProduct = (req: Request, res: Response) => {
-  Product.updateOne({ id: req.query.id }, req.body, { runValidators: true }, (err, product) => {
+  Product.updateOne({ id: req.query.id }, req.body, { runValidators: true }, (err) => {
     if (err) res.send(err);
     else res.send('Successfully updated the product');
   });
