@@ -47,14 +47,14 @@ router.use((req, res, next) => {
 });
 
 /** Routes */
-router.use('/', (req, res) => {
-  res.send('SStore Server');
-});
 router.use('/api/v1', productRoute);
 router.use('/api/v1', categoryRoute);
 router.use('/api/v1', motivationRoute);
 router.use('/api/v1', userRoute);
 router.use('/api/v1/', rootRoute);
+router.use('/', (req, res) => {
+  res.send('SStore Server');
+});
 
 /** Error handling */
 router.use((req, res, next) => {
