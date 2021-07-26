@@ -13,5 +13,7 @@
     "editor.renderWhitespace": "all",
     "editor.acceptSuggestionOnEnter": "off"
   },
-  "cSpell.enabled": true
+  "cSpell.enabled": true,
+  "sqltools.connections": [],
+  "cSpell.words": ["uuidv"]
 }
