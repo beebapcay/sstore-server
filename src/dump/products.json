@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ab0ec9cd-c11e-4e6e-9be1-4b9ab5d28601",
+    "name": "Adidas 4DFWD Emerges",
+    "description": "The adidas 4DFWD has been the go-to training shoe for a handful of runners ahead of the 2020 Tokyo Olympics. Recently, the partially 3D-printed sneaker has emerged in a “Cloud White/Core Black” reminiscent of the classic adidas Superstar.",
+    "category": "Adidas",
+    "stock": 100,
+    "sales": 50,
+    "price": 200,
+    "motivations": ["New Arrivals", "Trending"],
+    "image": "https://i.imgur.com/DLmBAzx.jpg"
+  },
+  {
+    "id": "15994909-ad16-4681-a68e-b549d8bb5781",
+    "name": "Adidas Ultraboost 5.0 DNA",
+    "description": "The best ideas? They stick around and evolve. Just look at adidas' Ultraboost running shoes. They may have started as high-performance runners, but they quickly gained a following off the track. This pair builds on their design code in a version dedicated to lifestyle wear. Running or walking, Boost cushioning delivers energy return you have to feel to believe",
+    "category": "Adidas",
+    "stock": 50,
+    "sales": 100,
+    "price": 180,
+    "motivations": ["Best Seller"],
+    "image": "https://i.imgur.com/TirBYZx.jpg"
+  },
+  {
+    "id": "505c7ff8-b0a6-4417-bb61-b30a136962b8",
+    "name": "Jordan Jumpman 2021 PF",
+    "description": "Inspired by the design of the latest Air Jordan game shoe, the Jordan Jumpman 2021 helps up-and-coming players level up their game. The shoe features responsive Zoom Air cushioning in the forefoot. Curved Flightwire cables are stitched into the material for a close, secure fit for competitive play. This PF version is ideal for use on outdoor courts",
+    "category": "Air Jordan",
+    "stock": 50,
+    "sales": 10,
+    "price": 205,
+    "motivations": ["Trending"],
+    "image": "https://i.imgur.com/BYGTP6C.png"
+  },
+  {
+    "id": "878cba8e-8963-48ed-9f95-932f25977968",
+    "name": "Air Jordan 1 Mid SE",
+    "description": "Take off with the Jumpman in the Air Jordan 1 Mid SE, made from at least 20% recycled materials by weight.These special edition shoes take inspiration from rugged workwear; they're made from washed canvas and synthetic suede to look durable and worn-in, with neutral tones offset by a speckled Swoosh logo.",
+    "category": "Air Jordan",
+    "stock": 100,
+    "sales": 20,
+    "price": 180,
+    "motivations": ["Trending"],
+    "image": "https://i.imgur.com/CAVd1HF.png"
+  },
+  {
+    "id": "5517950e-f132-4f08-8eb2-685691858acb",
+    "name": "Air Jordan 13",
+    "description": "The Air Jordan 13 first hit shelves in November 1997 as MJ rocked the singular silhouette in pursuit of his sixth world title.Nearly 6 months later, the design debuted its 'Flint Grey' colourway—a look that instantly became a must-have for both ballers and footwear aficionados.23 years later, we're breathing new life into that makeup with a bold infusion of Gym Red.Grab this heritage-inspired hybrid just in time for another deep playoff run.",
+    "category": "Air Jordan",
+    "stock": 50,
+    "sales": 10,
+    "price": 350,
+    "motivations": [],
+    "image": "https://i.imgur.com/aLUnREh.png"
+  },
+  {
+    "id": "73d01671-994a-4a62-9c72-a15ae591cac4",
+    "name": "Nike Venture Runner",
+    "description": "Elevating '80s style with a soft insole, the Nike Venture Runner celebrates 50 years of the Swoosh.Nodding to the iconic shoes that started the running revolution, it includes a throwback tongue label with original Nike script and Swoosh.The exposed stitching, high-flex upper and a micro-branded heel clip add fresh DNA to a wardrobe essential",
+    "category": "Nike",
+    "stock": 50,
+    "sales": 120,
+    "price": 105,
+    "motivations": ["Best Seller", "Trending"],
+    "image": "https://i.imgur.com/MEgKqWQ.png"
+  },
+  {
+    "id": "54706b13-bf0c-41e8-9c60-af229306d18d",
+    "name": "Nike Air VaporMax 2021 FK",
+    "description": "Made from at least 40% recycled materials by weight, the Nike Air VaporMax 2021 FK is airy and easy to wear with super-stretchy, recycled Flyknit fabric, plus a soft collar that sculpts your ankle.The stitched-on Swoosh and recycled TPU heel clip add a splash of intrigue as you float down the streets on incredibly soft VaporMax cushioning",
+    "category": "Nike",
+    "stock": 85,
+    "sales": 50,
+    "price": 400,
+    "motivations": ["New Arrivals"],
+    "image": "https://i.imgur.com/mjRxNfn.png"
+  },
+  {
+    "id": "9f077dc3-d902-4110-8fdb-ef32aa98c80d",
+    "name": "Jurassic Park Club C 85 Shoes",
+    "description": "These Reebok shoes pay homage to Jurassic Park's geeky villain, Dennis Nedry. A floral print on the leather upper is inspired by his Hawaiian shirt, while the zebra-print pony hair on the heel references his screen saver. The tongue is made of raincoat material like the one Nedry wears when he's trying to escape the island with the stolen embryos",
+    "category": "Reebok",
+    "stock": 100,
+    "sales": 80,
+    "price": 100,
+    "motivations": ["New Arrivals"],
+    "image": "https://i.imgur.com/xnNuRCW.jpg"
+  },
+  {
+    "id": "708e0214-7714-427b-ba60-304823a7b004",
+    "name": "Jurassic Park Instapump Fury OG Shoes",
+    "description": "Take a tour of Jurassic Park. These Reebok shoes feature graphics and colors inspired by the tour vehicles seen in the movie franchise. A slip-on design and lightweight cushioning keep you comfortable on the go. The Pump provides a customizable fit and is decorated with the iconic T. rex.",
+    "category": "Reebok",
+    "stock": 50,
+    "sales": 10,
+    "price": 200,
+    "motivations": ["Trending", "New Arrivals"],
+    "image": "https://i.imgur.com/xtoPmJl.jpg"
+  },
+  {
+    "id": "4950c0d2-abb6-4f60-be76-d90cc3d917da",
+    "name": "Converse Colors Chuck Taylor All Star",
+    "description": "The laidback legend is back in fresh colors. Ready for dressing up or down, these classic canvas Chucks are an everyday wardrobe staple. Plus, we’ve softened up the lining, stitching and seams for maximum comfort all day, every day",
+    "category": "Converse",
+    "stock": 100,
+    "sales": 150,
+    "price": 60,
+    "motivations": ["Best Seller", "New Arrivals"],
+    "image": "https://i.imgur.com/VEHo7Kv.jpg"
+  },
+  {
+    "id": "656dc9b9-05e4-48b8-9a25-471b91b3cbb2",
+    "name": "Converse Chuck 70",
+    "description": "More cushioning, tougher canvas, same versatility. The Chuck 70 High Top is built off of the original 1970s design, with premium materials and an extraordinary attention to detail. We added an extra cushy insole for arch support and stability, and used wing tongue stitching on 12oz canvas for durability. No reason not to wear them all day, every day",
+    "category": "Converse",
+    "stock": 50,
+    "sales": 150,
+    "price": 110,
+    "motivations": ["Best Seller", "Trending"],
+    "image": "https://i.imgur.com/BxhCkpg.jpg"
+  },
+  {
+    "id": "accb9a87-8874-4e5b-be6e-34b442ec1674",
+    "name": "Old Skool Lite LX",
+    "description": "First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand",
+    "category": "Vans",
+    "stock": 20,
+    "sales": 50,
+    "price": 50,
+    "motivations": ["New Arrivals"],
+    "image": "https://i.imgur.com/bfRdiNq.jpg"
+  },
+  {
+    "id": "a354f6f4-7256-48f0-8617-dfa499c735b6",
+    "name": "Vans Sk8-Hi 75",
+    "description": "First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand",
+    "category": "Vans",
+    "stock": 80,
+    "sales": 20,
+    "price": 55,
+    "motivations": [],
+    "image": "https://i.imgur.com/UUO9ka0.jpg"
+  },
+  {
+    "id": "da55e25d-1673-464d-99ed-a4ffd26d5967",
+    "name": "Puma Clyde Core Foil",
+    "description": "Pay tribute to a legend in this gold edition Clyde. Inspired by the legend himself, we created the PUMA Clyde back in 1973 just for basketball icon Walt 'Clyde Frazier'",
+    "category": "Puma",
+    "stock": 70,
+    "sales": 95,
+    "price": 70,
+    "motivations": ["Best Seller"],
+    "image": "https://i.imgur.com/qFiGXJS.png"
+  },
+  {
+    "id": "6189df96-4c2b-49fe-8601-c11f9441644d",
+    "name": "Puma Suede Classic XXI",
+    "description": "The Suede hit the scene in 1968 and has been changing the game ever since. It’s been worn by the icons of every generation and it’s stayed classic through it all",
+    "category": "Puma",
+    "stock": 50,
+    "sales": 50,
+    "price": 70,
+    "motivations": ["Trending"],
+    "image": "https://i.imgur.com/SpGQ7e2.png"
+  }
+]
