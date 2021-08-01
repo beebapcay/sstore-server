@@ -5,5 +5,15 @@ import Motivation from './motivation';
 import ProductAvailability from './productAvailability';
 import ShoppingState from './shoppingState';
 import UserState from './userState';
+import Order from './order';
 
-export { Category, Product, User, Motivation, ProductAvailability, ShoppingState, UserState };
+export {
+  Category,
+  Product,
+  User,
+  Motivation,
+  ProductAvailability,
+  ShoppingState,
+  UserState,
+  Order
+};

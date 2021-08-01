@@ -17,6 +17,7 @@ export const getMotivationById = (req: Request, res: Response) => {
 
 export const addMotivation = (req: Request, res: Response) => {
   let motivation = new Motivation(req.body);
+  console.log(req.body);
   motivation.save((err) => {
     if (err) res.send(err);
     else res.send('Successfully added the motivation');
@@ -31,6 +32,7 @@ export const deleteMotivation = (req: Request, res: Response) => {
 };
 
 export const updateMotivation = (req: Request, res: Response) => {
+  console.log(req.body);
   Motivation.updateOne({ id: req.query.id }, req.body, { runValidators: true }, (err) => {
     if (err) res.send(err);
     else res.send('Successfully updated the motivation');

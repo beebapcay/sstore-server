@@ -37,4 +37,11 @@ export const updateUser = (req: Request, res: Response) => {
   });
 };
 
+export const loginUser = (req: Request, res: Response) => {
+  User.findOne({ id: req.query.id }, (err: any, user: any) => {
+    if (err) res.send(err);
+    else res.send(user);
+  });
+};
+
 export default { getAllUsers, getUserById, addUser, deleteUser, updateUser };

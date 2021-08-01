@@ -1,13 +1,25 @@
 import http from 'http';
 import express from 'express';
 import mongoose from 'mongoose';
-import { productRoute, categoryRoute, userRoute, motivationRoute, rootRoute } from './routes';
+import {
+  productRoute,
+  categoryRoute,
+  userRoute,
+  motivationRoute,
+  rootRoute,
+  authRoute
+} from './routes';
 import logging from './config/logging';
 import config from './config/config';
 
 const NAMESPACE = 'SERVER';
 
 const router = express();
+
+/** Parse the body of the request */
+// router.use(express.urlencoded({ extended: false }));
+router.use(express.urlencoded());
+router.use(express.json());
 
 /** Log the request */
 router.use((req, res, next) => {
@@ -25,10 +37,6 @@ router.use((req, res, next) => {
 
   next();
 });
-
-/** Parse the body of the request */
-router.use(express.urlencoded({ extended: false }));
-router.use(express.json());
 
 /** Rules of API */
 router.use((req, res, next) => {
@@ -55,6 +63,7 @@ router.use('/api/v1', rootRoute);
 router.use('/api/v1', productRoute);
 router.use('/api/v1', categoryRoute);
 router.use('/api/v1', motivationRoute);
+router.use('/api/v1', authRoute);
 router.use('/api/v1', userRoute);
 
 /** Error handling */
