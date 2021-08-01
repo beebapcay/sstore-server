@@ -8,6 +8,7 @@ export const ProductSchema = new mongoose.Schema({
   stock: { type: Number },
   sales: { type: Number },
   price: { type: Number },
+  date: { type: Number },
   motivations: { type: [String] },
   image: { type: String }
 });

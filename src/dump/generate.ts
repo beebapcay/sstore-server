@@ -33,6 +33,7 @@ const generateProducts = () => {
     stock: 0,
     sales: 0,
     price: 0,
+    date: 0,
     motivations: [],
     image: ''
   }));
@@ -62,4 +63,5 @@ const generateMotivations = () => {
   });
 };
 
-generateCategories();
+// generateCategories();
+console.log(Date.now());

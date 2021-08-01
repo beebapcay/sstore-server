@@ -7,6 +7,7 @@
     "stock": 100,
     "sales": 50,
     "price": 200,
+    "date": 1627816882530,
     "motivations": ["New Arrivals", "Trending"],
     "image": "https://i.imgur.com/DLmBAzx.jpg"
   },
@@ -18,6 +19,7 @@
     "stock": 50,
     "sales": 100,
     "price": 180,
+    "date": 1627816882630,
     "motivations": ["Best Seller"],
     "image": "https://i.imgur.com/TirBYZx.jpg"
   },
@@ -29,6 +31,7 @@
     "stock": 50,
     "sales": 10,
     "price": 205,
+    "date": 1627816882730,
     "motivations": ["Trending"],
     "image": "https://i.imgur.com/BYGTP6C.png"
   },
@@ -40,6 +43,7 @@
     "stock": 100,
     "sales": 20,
     "price": 180,
+    "date": 1627816882830,
     "motivations": ["Trending"],
     "image": "https://i.imgur.com/CAVd1HF.png"
   },
@@ -51,6 +55,7 @@
     "stock": 50,
     "sales": 10,
     "price": 350,
+    "date": 1627816882930,
     "motivations": [],
     "image": "https://i.imgur.com/aLUnREh.png"
   },
@@ -62,6 +67,7 @@
     "stock": 50,
     "sales": 120,
     "price": 105,
+    "date": 1627816883530,
     "motivations": ["Best Seller", "Trending"],
     "image": "https://i.imgur.com/MEgKqWQ.png"
   },
@@ -73,6 +79,7 @@
     "stock": 85,
     "sales": 50,
     "price": 400,
+    "date": 1627816884530,
     "motivations": ["New Arrivals"],
     "image": "https://i.imgur.com/mjRxNfn.png"
   },
@@ -84,6 +91,7 @@
     "stock": 100,
     "sales": 80,
     "price": 100,
+    "date": 1627816885530,
     "motivations": ["New Arrivals"],
     "image": "https://i.imgur.com/xnNuRCW.jpg"
   },
@@ -95,6 +103,7 @@
     "stock": 50,
     "sales": 10,
     "price": 200,
+    "date": 1627816886530,
     "motivations": ["Trending", "New Arrivals"],
     "image": "https://i.imgur.com/xtoPmJl.jpg"
   },
@@ -106,6 +115,7 @@
     "stock": 100,
     "sales": 150,
     "price": 60,
+    "date": 1627816887530,
     "motivations": ["Best Seller", "New Arrivals"],
     "image": "https://i.imgur.com/VEHo7Kv.jpg"
   },
@@ -117,6 +127,7 @@
     "stock": 50,
     "sales": 150,
     "price": 110,
+    "date": 1627816888530,
     "motivations": ["Best Seller", "Trending"],
     "image": "https://i.imgur.com/BxhCkpg.jpg"
   },
@@ -128,6 +139,7 @@
     "stock": 20,
     "sales": 50,
     "price": 50,
+    "date": 1627816889530,
     "motivations": ["New Arrivals"],
     "image": "https://i.imgur.com/bfRdiNq.jpg"
   },
@@ -139,6 +151,7 @@
     "stock": 80,
     "sales": 20,
     "price": 55,
+    "date": 1627816892530,
     "motivations": [],
     "image": "https://i.imgur.com/UUO9ka0.jpg"
   },
@@ -150,6 +163,7 @@
     "stock": 70,
     "sales": 95,
     "price": 70,
+    "date": 1627816982530,
     "motivations": ["Best Seller"],
     "image": "https://i.imgur.com/qFiGXJS.png"
   },
@@ -161,6 +175,7 @@
     "stock": 50,
     "sales": 50,
     "price": 70,
+    "date": 1627817882530,
     "motivations": ["Trending"],
     "image": "https://i.imgur.com/SpGQ7e2.png"
   }
