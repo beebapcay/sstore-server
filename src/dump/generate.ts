@@ -5,13 +5,16 @@ import { Category, Motivation, Product } from '../models';
 const generateCategories = () => {
   const categories: Category[] = [];
   const titles = ['All', 'Adidas', 'Air Jordan', 'Nike', 'Reebok', 'Converse', 'Vans', 'Puma'];
+  let order = 0;
 
   titles.forEach((title) => {
     const category = {
       id: uuidv4(),
-      title: title
+      title: title,
+      order: order
     };
 
+    order += 5;
     categories.push(category);
   });
 
@@ -59,4 +62,4 @@ const generateMotivations = () => {
   });
 };
 
-generateMotivations();
+generateCategories();

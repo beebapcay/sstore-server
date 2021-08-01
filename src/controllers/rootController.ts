@@ -5,7 +5,7 @@ const getAvailability = async (req: Request, res: Response) => {
   try {
     const [products, categories, motivations] = await Promise.all([
       Product.find().lean().exec(),
-      Category.find().lean().exec(),
+      Category.find().sort().lean().exec(),
       Motivation.find().lean().exec()
     ]);
 
