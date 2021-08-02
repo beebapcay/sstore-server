@@ -25,11 +25,11 @@ export const saveOrder = (req: Request, res: Response) => {
     order.date = Date.now();
 
     new Order(order).save((err) => {
-      if (err) res.send(err);
-      else res.send('Save order successfully');
+      if (err) res.send('Order failed');
+      else res.send('Order successfully');
     });
   } catch (err) {
-    res.send(err.message);
+    res.send('Order failed');
   }
 };
 

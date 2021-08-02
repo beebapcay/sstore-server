@@ -1,10 +1,10 @@
-import Product from './product';
+import ProductOrder from './productOrder';
 import User from './user';
 
 interface Order {
   id: string;
   user: User;
-  items: Product[];
+  items: ProductOrder[];
   subTotalCost: number;
   shipCost: number;
   totalCost: number;

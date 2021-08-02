@@ -1,11 +1,11 @@
 import mongoose from 'mongoose';
-import { ProductSchema } from './product';
+import { ProductOrderSchema } from './productOrder';
 import { UserSchema } from './user';
 
 export const OrderSchema = new mongoose.Schema({
   id: { type: String },
   user: { type: UserSchema },
-  items: { type: [ProductSchema] },
+  items: { type: [ProductOrderSchema] },
   subTotalCost: { type: Number },
   shipCost: { type: Number },
   totalCost: { type: Number },
