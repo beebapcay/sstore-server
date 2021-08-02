@@ -9,7 +9,11 @@ export const OrderSchema = new mongoose.Schema({
   subTotalCost: { type: Number },
   shipCost: { type: Number },
   totalCost: { type: Number },
-  date: { type: Number }
+  date: { type: Number },
+  address: { type: String },
+  note: { type: String },
+  firstName: { type: String },
+  lastName: { type: String }
 });
 
 const Order = mongoose.model('Order', OrderSchema, 'orders');

@@ -9,6 +9,10 @@ interface Order {
   shipCost: number;
   totalCost: number;
   date: number;
+  address: string;
+  note: string;
+  firstName: string;
+  lastName: string;
 }
 
 export default Order;
