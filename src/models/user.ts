@@ -11,7 +11,6 @@ interface User {
   age: number;
   gender: string;
   favourites: Product[];
-  orders: Order[];
 }
 
 export default User;

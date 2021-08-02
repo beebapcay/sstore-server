@@ -4,6 +4,7 @@ import userController from './userController';
 import motivationController from './motivationController';
 import rootController from './rootController';
 import authController from './authController';
+import orderController from './orderController';
 
 export {
   categoryController,
@@ -11,5 +12,6 @@ export {
   userController,
   motivationController,
   rootController,
-  authController
+  authController,
+  orderController
 };

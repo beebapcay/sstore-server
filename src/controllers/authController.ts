@@ -37,8 +37,7 @@ const register = async (req: Request, res: Response) => {
         phone: phone,
         password: password,
         avatar: '',
-        favourites: [],
-        orders: []
+        favourites: []
       };
 
       new User(user).save((err) => {

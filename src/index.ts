@@ -7,7 +7,8 @@ import {
   userRoute,
   motivationRoute,
   rootRoute,
-  authRoute
+  authRoute,
+  orderRoute
 } from './routes';
 import logging from './config/logging';
 import config from './config/config';
@@ -64,6 +65,7 @@ router.use('/api/v1', productRoute);
 router.use('/api/v1', categoryRoute);
 router.use('/api/v1', motivationRoute);
 router.use('/api/v1', authRoute);
+router.use('/api/v1/', orderRoute);
 router.use('/api/v1', userRoute);
 
 /** Error handling */

@@ -1,8 +1,7 @@
 import mongoose from 'mongoose';
 import { ProductSchema } from './product';
-import { OrderSchema } from './order';
 
-const UserSchema = new mongoose.Schema({
+export const UserSchema = new mongoose.Schema({
   id: { type: String },
   firstName: { type: String },
   lastName: { type: String },
@@ -12,8 +11,7 @@ const UserSchema = new mongoose.Schema({
   avatar: { type: String },
   age: { type: Number },
   gender: { type: String },
-  favourites: { type: [ProductSchema] },
-  orders: { type: [OrderSchema] }
+  favourites: { type: [ProductSchema] }
 });
 
 const User = mongoose.model('User', UserSchema, 'users');
