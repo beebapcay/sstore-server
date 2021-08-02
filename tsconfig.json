@@ -10,7 +10,7 @@
     "outDir": "./public",
     "baseUrl": ".",
     "paths": {
-      "*": ["nodem_modules/", "src/types/*"]
+      "*": ["node_modules/", "src/types/*"]
     }
   },
   "include": ["src/**/*"],
